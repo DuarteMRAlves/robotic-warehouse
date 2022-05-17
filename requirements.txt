@@ -1,0 +1,6 @@
+astar
+numpy
+gym>=0.20,<0.22.0
+pyglet
+networkx
+six

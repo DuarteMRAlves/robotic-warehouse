@@ -3,8 +3,9 @@
  <p align="center">A multi-agent reinforcement learning environment</p>
 </p>
 
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
+
+WARNING: This repository is a fork. Development is still active in the [original repository](https://github.com/semitable/robotic-warehouse).
 
 <h1>Table of Contents</h1>
 
@@ -116,14 +117,9 @@ A detailed explanation of all parameters can be found [here](https://github.com/
 
 # Installation
 
-Assuming you have Python3 (preferably on a virtual environment: venv or Anaconda) installed, you can use PyPI:
-```sh
-pip install rware
-```
-
 If you prefer to have the code available and be able to edit it, you can use Git to download and install it:
 ```sh
-git clone git@github.com:uoe-agents/robotic-warehouse.git
+git clone https://github.com/DuarteMRAlves/robotic-warehouse.git
 cd robotic-warehouse
 pip install -e .
 ```

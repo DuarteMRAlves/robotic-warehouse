@@ -22,10 +22,12 @@ setup(
         "Programming Language :: Python :: 3.7",
     ],
     install_requires=[
+        "astar",
         "numpy",
-        "gym>=0.20",
+        "gym>=0.20,<0.22",
         "pyglet",
         "networkx",
+        "six",
     ],
     extras_require={"test": ["pytest"]},
     include_package_data=True,
